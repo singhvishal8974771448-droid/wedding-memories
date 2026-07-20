@@ -6,42 +6,42 @@ const sections = [
 
 {
 name:"Jaimala",
-folder:"Jaimala",
+folder:"jaimala",
 song:"songs/wedding/jaimala.mp3",
 total:9
 },
 
 {
 name:"Kanyadan",
-folder:"Kanyadan",
+folder:"kanyadan",
 song:"songs/wedding/kanyadan.mp3",
 total:6
 },
 
 {
 name:"Sindurdan",
-folder:"Sindurdan",
+folder:"sindurdan",
 song:"songs/wedding/sindurdan.mp3",
 total:7
 },
 
 {
 name:"Phere",
-folder:"Phere",
+folder:"phere",
 song:"songs/wedding/phere.mp3",
 total:8
 },
 
 {
 name:"Reception",
-folder:"Reception",
+folder:"reception",
 song:"songs/wedding/reception.mp3",
 total:31
 },
 
 {
 name:"Couple",
-folder:"Couple",
+folder:"couple",
 song:"songs/wedding/couple.mp3",
 total:8
 }
