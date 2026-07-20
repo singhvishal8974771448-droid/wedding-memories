@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    font-family:'Poppins',sans-serif;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),
+        url('assets/backgrounds/welcome.jpg');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:70px; /* cards ke beech distance */
+    padding:30px;
+}
+
+.card{
+    width: 300px;
+    height:450px;
+    position:relative;
+    border-radius:35px;
+    overflow:hidden;
+    cursor:pointer;
+    transition:0.5s;
+    box-shadow:0 15px 40px rgba(0,0,0,0.5);
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.overlay{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    padding:40px;
+    background:linear-gradient(
+        transparent,
+        rgba(0,0,0,0.9)
+    );
+}
+
+.overlay h2{
+    color:white;
+    font-size:40px;
+    font-family:'Great Vibes',cursive;
+    text-align:center;
+    text-shadow:0 5px 20px rgba(0,0,0,0.8);
+}
+
+@media(max-width:1000px){
+
+    body{
+        flex-direction:column;
+        gap:40px;
+        padding:40px 20px;
+    }
+
+    .card{
+        width:300px;
+        height:450px;
+    }
+
+    .overlay h2{
+        font-size:45px;
+    }
+}
+
+@media(max-width:480px){
+
+    .card{
+        width:250px;
+        height:400px;
+    }
+
+    .overlay h2{
+        font-size:38px;
+    }
+}
