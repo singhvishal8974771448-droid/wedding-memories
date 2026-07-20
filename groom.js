@@ -9,21 +9,21 @@ const sections = [
 {
 name:"Groom",
 folder:"Solo",
-song:"songs/groom/solo.mp3",
+song:"songs/groom/Solo.mp3",
 total:6
 },
 
 {
 name:"Haldi",
 folder:"Haldi",
-song:"songs/groom/haldi.mp3",
+song:"songs/groom/Haldi.mp3",
 total:10
 },
 
 {
 name:"Family",
 folder:"Family",
-song:"songs/groom/family.mp3",
+song:"songs/groom/Family.mp3",
 total:17
 }
 

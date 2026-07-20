@@ -9,28 +9,28 @@ const sections = [
 {
 name:"Bride",
 folder:"Solo",
-song:"songs/bride/solo.mp3",
+song:"songs/bride/Solo.mp3",
 total:10
 },
 
 {
 name:"Haldi",
 folder:"Haldi",
-song:"songs/bride/haldi.mp3",
+song:"songs/bride/Haldi.mp3",
 total:7
 },
 
 {
 name:"Mehndi",
 folder:"Mehndi",
-song:"songs/bride/mehndi.mp3",
+song:"songs/bride/Mehndi.mp3",
 total:7
 },
 
 {
 name:"Family",
 folder:"Family",
-song:"songs/bride/family.mp3",
+song:"songs/bride/Family.mp3",
 total:16
 }
 
