@@ -29,7 +29,7 @@ total:7
 
 {
 name:"Family",
-folder:"Family",
+folder:"family",
 song:"songs/bride/Family.mp3",
 total:16
 }
